@@ -5,6 +5,7 @@ div{
     display: inline-block;
 }
 .img{
+    color: white;
     width: 40px;
     height: 40px;
     position: absolute;
@@ -26,6 +27,7 @@ div{
     padding: 10px;
     background-image: linear-gradient(45deg, #febf9c, #ecb6cd);
     border-radius: 25px;
+    overflow: hidden;
 }
 .card2{
     position: relative;
@@ -35,6 +37,7 @@ div{
     padding: 10px;
     background-image: linear-gradient(45deg, #8cc8f6, #3298e6);
     border-radius: 25px;
+    overflow: hidden;
 }
 .card3{
     position: relative;
@@ -44,5 +47,38 @@ div{
     padding: 10px;
     background-image: linear-gradient(45deg, #77d8ce, #39bba9);
     border-radius: 25px;
+    overflow: hidden;
 }
-
+.card1::after{
+    content:"" ;
+    position: absolute;
+    bottom: -100px;
+    width: 250px;
+    height: 250px;
+    background-color: lavenderblush;
+    opacity: 0.3;
+    border-radius: 100%;
+    box-shadow: 0 0 0 0px;
+}
+.card2::after{
+    content:"" ;
+    position: absolute;
+    bottom: -100px;
+    width: 250px;
+    height: 250px;
+    background-color: lavenderblush;
+    opacity: 0.3;
+    border-radius: 100%;
+    box-shadow: 0 0 0 0px;
+}
+.card3::after{
+    content:"" ;
+    position: absolute;
+    bottom: -100px;
+    width: 250px;
+    height: 250px;
+    background-color: lavenderblush;
+    opacity: 0.3;
+    border-radius: 100%;
+    box-shadow: 0 0 0 0px;
+}
